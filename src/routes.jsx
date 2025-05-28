@@ -6,9 +6,9 @@ import Contatos from "./pages/Contatos";
 
 function AppRoutes() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/React2-RauleNicolas">
             <Routes>
-                <Route path="/React2-RauleNicolas" element={<Home />} ></Route>
+                <Route path="/" element={<Home />} ></Route>
                 <Route path="/sobre" element={ <Sobre /> }> </Route>
                 <Route path="/projetos" element={ <Projetos /> }> </Route>
                 <Route path="/contatos" element={ <Contatos /> }> </Route>
